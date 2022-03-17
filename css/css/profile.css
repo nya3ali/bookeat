@@ -1,0 +1,391 @@
+div,
+h2,
+h3,
+h6,
+form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.clear {
+	clear: both;	
+}
+
+.booking-form-w3layouts {
+	box-sizing: border-box;
+	padding: 3em 3em;
+	background: #fff;
+	width: 65%;
+	margin: 0 auto;
+	border: 2px solid #fcc7798e;
+	border-radius: 1em;
+}
+
+h2.sub-heading-agileits,
+h3.sub-heading-agileits {
+	display: inline-block;
+	text-align: left;
+	font-size: 24px;
+	color: #ffb03b;
+	text-transform: capitalize;
+	margin-bottom: 0.4em;
+	padding: 0px 25px 10px 0px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #ffb03b;
+	font-family: inherit;
+}
+
+.radio-section {
+	text-align: left;
+	margin: 0.7em 0;
+}
+
+.radio-section h6 {
+	display: inline;
+	margin-top: 10px;
+	color: #0091cd;
+	font-size: 19px;
+	text-transform: capitalize;
+	margin-bottom: 0.7em;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-family: "Raleway", sans-serif;
+}
+
+/* .radio-section ul {
+	display: inline;
+} */
+
+.radio-buttons-w3-agileits li input[type="radio"] {
+	cursor: pointer;
+}
+
+.radio-buttons-w3-agileits li label {
+	color: #fff;
+	font-size: 13.5px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: "Raleway", sans-serif;
+}
+
+.field-agileinfo-spc {
+	margin-bottom: 1em;
+}
+
+.form-w3-agile-text {
+	width: 100%;
+}
+
+.booking-form-w3layouts label {
+	font-size: 13.5px;
+	color: rgba(255, 255, 255, 0.83);
+	letter-spacing: 2px;
+	font-weight: 400;
+	position: relative;
+	margin-bottom: 1.5em;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+ul.radio-buttons-w3-agileits li {
+	display: inline-block;
+	margin: 0em 2em;
+}
+
+@media (max-width: 1440px) {
+	.booking-form-w3layouts {
+		width: 73%;
+	}
+}
+
+@media (max-width: 1366px) {
+	.booking-form-w3layouts {
+		width: 75%;
+	}
+}
+
+@media (max-width: 1280px) {
+	.booking-form-w3layouts {
+		width: 80%;
+	}
+}
+
+@media (max-width: 1080px) {
+	.booking-form-w3layouts {
+		width: 83%;
+		padding: 2em 2.2em;
+	}
+}
+
+@media (max-width: 1024px) {
+	h2.sub-heading-agileits,
+	h3.sub-heading-agileits {
+		font-size: 22px;
+		padding: 0px 20px 7px 0px;
+	}
+
+	.field-agileinfo-spc {
+		margin-bottom: 0.8em;
+	}
+
+	.booking-form-w3layouts input[type="submit"],
+	.booking-form-w3layouts input[type="reset"] {
+		padding: 0.5em 3em;
+		font-size: 1.1em;
+	}
+}
+
+@media (max-width: 768px) {
+	h2.sub-heading-agileits,
+	h3.sub-heading-agileits {
+		font-size: 21px;
+		padding: 0px 15px 7px 0px;
+	}
+
+	.radio-section h6 {
+		font-size: 17px;
+		letter-spacing: 1.5px;
+	}
+
+	ul.radio-buttons-w3-agileits li {
+		margin: 0em 1em;
+	}
+}
+
+@media (max-width: 667px) {
+	h2.sub-heading-agileits,
+	h3.sub-heading-agileits {
+		font-size: 19px;
+		letter-spacing: 1.5px;
+	}
+
+	.booking-form-w3layouts {
+		width: 86%;
+		padding: 2em 2em;
+	}
+
+	.field-agileinfo-spc {
+		margin-bottom: 0.9em;
+	}
+
+	h2.sub-heading-agileits,
+	h3.sub-heading-agileits {
+		margin-bottom: 0.6em;
+	}
+}
+
+@media (max-width: 640px) {
+	.booking-form-w3layouts input[type="submit"] {
+		margin-right: 0.7em;
+	}
+}
+
+@media (max-width: 600px) {
+	.booking-form-w3layouts {
+		width: 90%;
+	}
+
+	.booking-form-w3layouts input[type="submit"],
+	.booking-form-w3layouts input[type="reset"] {
+		padding: 0.5em 2em;
+	}
+}
+
+@media (min-width: 481px) {
+	.main-flex-w3ls-sectns {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+	}
+
+	.form-w3-agile-text1,
+	.form-w3-agile-text2 {
+		flex-basis: 48.5%;
+		-webkit-flex-basis: 48.5%;
+	}
+}
+
+@media (min-width: 737px) {
+	.triple-wthree {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+	}
+
+	.form-w3-agile-text11,
+	.form-w3-agile-text22,
+	.form-w3-agile-text33 {
+		flex-basis: 32%;
+		-webkit-flex-basis: 32%;
+	}
+}
+
+@media (max-width: 480px) {
+	ul.radio-buttons-w3-agileits li {
+		margin: 0em 0.5em;
+	}
+
+	.radio-section {
+		margin: 1.3em 0 0.7em;
+	}
+
+	.booking-form-w3layouts {
+		width: 85%;
+	}
+
+	ul.radio-buttons-w3-agileits li {
+		margin: 1em 0em 0em 0.2em;
+		display: block;
+	}
+
+	.booking-form-w3layouts input[type="submit"],
+	.booking-form-w3layouts input[type="reset"] {
+		font-size: 1em;
+	}
+
+	.booking-form-w3layouts textarea {
+		height: 60px;
+	}
+
+	.radio-section {
+		margin: 1em 0 0.7em;
+	}
+}
+
+@media (max-width: 414px) {
+	.booking-form-w3layouts {
+		width: 90%;
+	}
+
+	.booking-form-w3layouts {
+		width: 90%;
+		padding: 1.5em 1.7em;
+	}
+}
+
+@media (max-width: 384px) {
+	.booking-form-w3layouts input[type="submit"],
+	.booking-form-w3layouts input[type="reset"] {
+		float: none;
+	}
+
+	.booking-form-w3layouts input[type="submit"] {
+		margin-right: 0em;
+	}
+}
+
+@media (max-width: 320px) {
+	.booking-form-w3layouts {
+		width: 93%;
+		padding: 1.3em 1.5em;
+	}
+
+	h2.sub-heading-agileits,
+	h3.sub-heading-agileits {
+		font-size: 18px;
+		letter-spacing: 1.4px;
+		padding: 0px 12px 5px 0px;
+	}
+}
+
+.info-date {
+	align-items: flex-end;
+}
+
+/* Radio */
+h3 {
+	margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:not(:disabled) ~ label {
+	cursor: pointer;
+}
+
+input[type="radio"]:disabled ~ label {
+	color: #bcc2bf;
+	border-color: #bcc2bf;
+	box-shadow: none;
+	cursor: not-allowed;
+}
+
+input[type="radio"] + label {
+	color: black;
+	display: block;
+	background: white;
+	border: 2px solid #20df80;
+	border-radius: 5px;
+	padding: 0.4rem;
+	margin-bottom: 1.3rem;
+	text-align: center;
+	box-shadow: 0px 3px 10px -2px rgba(161, 170, 166, 0.5);
+	position: relative;
+}
+
+input[type="radio"]:checked + label {
+	background: #20df80;
+	color: white;
+	font-weight: 500;
+	box-shadow: 0px 0px 20px rgba(0, 255, 128, 0.75);
+}
+
+input[type="radio"]:checked + label::after {
+	color: #1dc973;
+	font-family: FontAwesome;
+	border: 2px solid #1dc973;
+	content: "";
+	font-size: 20px;
+	position: absolute;
+	top: -17px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 30px;
+	width: 30px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 50%;
+	background: white;
+	box-shadow: 0px 2px 5px -2px rgb(0 0 0 / 25%);
+}
+
+.radio-custom:checked ~ label {
+	color: blue !important;
+}
+
+.border-input {
+	border: 2px solid lightgray;
+	border-radius: 5px;
+}
+
+.disabled-input {
+	color: lightgray;
+	font: inherit;
+	padding: 0.4rem;
+}
+
+p {
+	font-weight: 900;
+}
+
+@media only screen and (max-width: 700px) {
+	section {
+		flex-direction: column;
+	}
+}
+
+/* General */
+.color-span-title {
+	color: grey;
+	font-weight: 600;
+}

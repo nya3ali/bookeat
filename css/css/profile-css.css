@@ -1,0 +1,26 @@
+/* Time picker */
+input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] {
+	height: 30px !important;
+	border-radius: 4px !important;
+	border: 2px solid #ffb13b9c !important; 
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator{
+	filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+/* Profile Image */
+.stretch {
+	margin-top: 5px;
+}
+
+.stretch img {
+	width: 100%;
+	cursor: pointer;
+}
+.img-profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 10px; 
+	border: 2px solid #ffba3b;
+}
